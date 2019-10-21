@@ -1,5 +1,5 @@
-import Blog from '../layouts/Blog'
+import PageLayout from '../layouts/PageLayout'
 
-const MyCartView = props => <Blog>{`My Cart View`}</Blog>;
+const MyCartView = props => <PageLayout>{`My Cart View`}</PageLayout>;
 
 export default MyCartView;
