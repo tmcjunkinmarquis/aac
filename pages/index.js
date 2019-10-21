@@ -3,7 +3,8 @@ import Layout from '../layouts/PageLayout'// import { getPosts } from 'api/posts
 import Link from "next/link";
 import { getPosts } from '../api/posts'
 import Post from '../components/Post'
-import './index.scss'
+
+import './index.css'
 
 const Index = ({ posts }) => (
   <Layout>

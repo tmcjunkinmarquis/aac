@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import './Nav.scss'
+import './Nav.css'
 
 
 const Nav = ({ children, title = 'This is the default navigation' }) => (
@@ -16,7 +16,9 @@ const Nav = ({ children, title = 'This is the default navigation' }) => (
     <Link href="/profile">
       <a title="Profile Page">Profile</a>
     </Link>
-    I am the navigation component</div>
+    <Link href="/messageUs">
+      <a title="Message Us Page">Message Us</a>
+    </Link></div>
 )
 
 export default Nav

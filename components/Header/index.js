@@ -1,5 +1,5 @@
 import Nav from '../Nav'
-import './Header.scss'
+import './Header.css'
 
 
 const Header = () => (
