@@ -1,0 +1,20 @@
+.Header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+
+  height: 100px;
+  width: 100%;
+
+  padding: 0 20px;
+
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  color: green;
+  
+
+  background: crimson;
+
+  cursor: pointer;
+}

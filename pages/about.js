@@ -1,9 +1,9 @@
-import Blog from '../layouts/Blog'
+import PageLayout from "../layouts/PageLayout";
 
 export default function About() {
   return (
-    <Blog>
+    <PageLayout>
       <p>This is the about page</p>
-    </Blog>
+    </PageLayout>
   );
 }

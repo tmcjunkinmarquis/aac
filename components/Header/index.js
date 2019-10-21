@@ -1,14 +1,9 @@
 import Nav from '../Nav'
+import './Header.scss'
 
-const headerStyle = {
-  backgroundColor: "green",
-  color: "white",
-  width: "100%",
-  height: "100px"
-};
 
 const Header = () => (
-  <div className="Header" style={headerStyle}>
+  <div className="Header" >
     AAC
 <Nav/>
   </div>

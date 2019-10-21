@@ -1,5 +1,5 @@
-import Blog from '../layouts/Blog'
+import PageLayout from '../layouts/PageLayout'
 
-const ProfileView = props => <Blog>{`Profile View`}</Blog>;
+const ProfileView = props => <PageLayout>{`Profile View`}</PageLayout>;
 
 export default ProfileView;
