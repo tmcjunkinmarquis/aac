@@ -8,6 +8,7 @@ const PageLayout = ({ children, title = "Applied Action Consulting" }) => (
   <div className="Layout">
     <Head>
       <title>{title}</title>
+      
     </Head>
     <Header />
 

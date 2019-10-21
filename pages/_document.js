@@ -12,6 +12,7 @@ export default class SiteDocument extends Document {
         <Head>
           <meta charSet="utf-8" />
           <meta name="viewport" content="initial-scale=1.0, width=device-width, user-scalable = no" />
+          <link rel="shortcut icon" type="image/x-icon" href="/static/favicon.png" />
           {styleTags}
         </Head>
         <body>
