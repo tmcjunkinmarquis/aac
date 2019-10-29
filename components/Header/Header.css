@@ -1,20 +1,26 @@
 .Header {
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
   align-items: center;
 
-  height: 100px;
+  height: 280px;
   width: 100%;
 
   padding: 0 20px;
 
   font-family: Arial, sans-serif;
-  font-size: 14px;
+  font-size: 20px;
   font-weight: bold;
-  color: green;
+  color: lightseagreen;
+  overflow: auto;
   
 
-  background: crimson;
+  background: #E7F4ED;
 
   cursor: pointer;
+}
+
+img {
+    max-width:30%;
+    height:auto;
 }
